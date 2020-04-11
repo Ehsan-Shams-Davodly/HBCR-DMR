@@ -51,7 +51,7 @@ for (TypeIndex in unique(TypeSample)) {
       SaveDir <- paste(CurrentDir,TypeIndex,"/",NameIndex,"/",StrandIndex,"/",sep = "")
       cat(paste(TypeIndex,NameIndex,"\n\n",sep = " "))
       for (chri in unique(as.character(Chr))) {
-        cat(chri)
+        cat(chri,"\n")
         temp   <- which(Chr == chri)
         SPi    <- SP[temp]
         MCi    <- MRatio[temp,NameIndex]
