@@ -6,7 +6,7 @@ gc()
 
 #======================================================================================
 # Load rrbs data and neccesary packages
-data(RRBSdata, package = "RRBSdata")
+data(rrbs, package = "RRBSdata")
 
 library(BiSeq)
 library(bsseq)
